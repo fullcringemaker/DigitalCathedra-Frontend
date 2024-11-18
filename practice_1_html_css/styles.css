@@ -55,6 +55,13 @@ h1 {
     background-color: #F9F9F9;
     width: 400px;
     padding: 10px 11px 10px 4px;
+    margin-bottom: 20px;
+}
+.card:last-child {
+    background-color: #F9F9F9;
+    width: 400px;
+    padding: 10px 11px 10px 4px;
+    margin-bottom: 0px;
 }
 
 img {
@@ -67,21 +74,14 @@ img {
 
 .dish {
     color: #555555;
-}
-
-#num {
-    margin-bottom: 20px;
-}
-
-#opustit {
     margin-top: 5px;
 }
 
-#img3str {
+.img-long-description {
     margin-bottom: 3px;
 }
 
-#card2str {
+.card-short-description {
     margin-bottom: 15px;
 }
 
@@ -91,18 +91,15 @@ img {
     width: 200px;
 }
 
-#nabor {
-    margin-bottom: 18px;
-}
-
 .lists {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
-.razdel, li {
+#address, li {
     margin-bottom: 10px;
 }
+
 li:last-child {
     margin-bottom: 0px;
 }
@@ -111,8 +108,13 @@ li:last-child {
     background-color: #EEEEEE;
 }
 
-#font-changer {
+.font-changer {
     font-size: 20px;
+    margin-top: 18px;
+}
+.font-changer:first-child {
+    font-size: 20px;
+    margin-top: 0px;
 }
 
 #footer {
